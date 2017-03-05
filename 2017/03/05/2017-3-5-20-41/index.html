@@ -10,7 +10,7 @@
     
     <title>
         
-            Hello World | 
+            2017-3-5 20:41 | 
         
         汪严玮的博客
     </title>
@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="汪严玮">
     <meta name="description" content="null">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,单行程序 C# 没啥用">
 
     <!--iOS -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -48,9 +48,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://wangyw15.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Hello World | 汪严玮的博客">
+    <meta property="og:title" content="2017-3-5 20:41 | 汪严玮的博客">
     <meta property="og:description" content="null">
-    
+    <meta property="og:article:tag" content="单行程序 C# 没啥用"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -234,7 +234,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Quick-Start"><span class="post-toc-number">1.</span> <span class="post-toc-text">Quick Start</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Create-a-new-post"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Create a new post</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Run-server"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">Run server</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Generate-static-files"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">Generate static files</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Deploy-to-remote-sites"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#C-单行计算器（只有一行的程序）"><span class="post-toc-number">1.</span> <span class="post-toc-text">C#单行计算器（只有一行的程序）</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#其实并没有什么用…"><span class="post-toc-number">1.0.0.0.0.1.</span> <span class="post-toc-text">其实并没有什么用…</span></a></li></ol></li></ol></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#废话不多说，直接上代码（注意要添加对“System-Data”的引用，然后在代码里引用”System-Data”命名空间）"><span class="post-toc-number">1.0.1.</span> <span class="post-toc-text">废话不多说，直接上代码（注意要添加对“System.Data”的引用，然后在代码里引用”System.Data”命名空间）</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#①-new-DataTable"><span class="post-toc-number">1.0.2.</span> <span class="post-toc-text">① new DataTable()</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#①-Console-ReadLine"><span class="post-toc-number">1.0.3.</span> <span class="post-toc-text">① Console.ReadLine()</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#①-DataTable-Compute"><span class="post-toc-number">1.0.4.</span> <span class="post-toc-text">① DataTable.Compute()</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#①-Console-WriteLine"><span class="post-toc-number">1.0.5.</span> <span class="post-toc-text">① Console.WriteLine()</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#感觉也没人能看懂…"><span class="post-toc-number">1.0.5.0.0.1.</span> <span class="post-toc-text">感觉也没人能看懂…</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li></ol>
 
         <!--
         <li class="mdl-menu__item">
@@ -270,7 +270,7 @@
         
     
             <p class="article-headline-p">
-                Hello World
+                2017-3-5 20:41
             </p>
         </div>
 
@@ -310,7 +310,7 @@
         </button>
         <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
             <li class="mdl-menu__item">在其它设备中阅读本文章</li>
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACbUlEQVR42u3aQXLCMBAEQP7/6eQBFM6MVlaAap8o4oDaB2mZ3cfPV18PPDw8PDw8PDy8N+M94uv5v55fv3rn1Xe170drw8PDwzvC+2OrLZf7/Nfrz0zuydeGh4eHd5J3vUFfb9Y5rP2cfG14eHh4n8vLt/7rO/Hw8PC+lZffk0QMb3cw4OHh4Y3DiL3BRH5gHMpa8PDw8GJe3mQ6//pofw8PDw8v4NUjTS++fh4uJMdAPXSFh4eHdwMv34ivy+iXBW4cIuRNsj8KcTw8PLwjvHmzqo0qksI9CTWKXwx4eHh4m3g5aUNMEBfNeZke/WLAw8PD28pba0q1MUT7zmjgAA8PD+8ILylt21J7bQwriUjqGBcPDw9vK6+NJCZDBvn9eWFdhBF4eHh4m3jziGEt8N01fLCtv4eHh4cX89pQIB8LaMPfttAfpdR4eHh4A17Sts8bWvmn5QdJ21TDw8PDO8lbW0ob1O56WNsaYHh4eHgD3lq8m8e4bRjRfhoeHh7eGd7a8NMktG1L7XqIAQ8PD+9m3lopvNbmz1tlN86U4eHh4W3i/cRXPow1aXpNDiE8PDy8k7z5CFQ7wJo/4mSdeHh4eP/LWyuvkwOgfXD1OvHw8PCO89Y25baFlh8qG4au8PDw8Lby2mutRJ4sd3Qw4OHh4d3Am2zHeeF7MrzAw8PDO8PbdRi0Y6ZFODsPI/Dw8PBu4OVLzEeg6m09PqLw8PDwPpG3tt0nD6gNefHw8PA+hdc2vdaaannZjYeHh3eelxTEOaMd3srvwcPDw3sH3jwCyDf0BNM22/Dw8PBO8r7vwsPDw8PDw8PDe4PrF8Em9xOGB5WGAAAAAElFTkSuQmCC">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACWUlEQVR42u3aQXbDIAwFQN//0u22i8b5QoBJ3rDKS2JgWIAscf18dbvw8PDw8PDw8PAO411x+/v/Vz38M1jw7P3/87nh4eHh7eS92WpfDJkg82fvx03mhoeHh7eflxwG+a/JQuTHRuEpPDw8vMN494Fy9cCohuN4eHh4n8i7n1D1qKguHB4eHt5pvMILfyPg7icpFuZa8PDw8GLeWAFsz+fH6nt4eHh4iy9d5QWwsULX4KUrPDw8vAW8JMFaTbl2ymadYhgeHh7es7z7rb/f+oF162DAw8PDa/DmlqzyQDm/ntUqgOHh4eEt5uWhczJMEv5W0xnlkBoPDw9vMa8DHsP0e8DDw8Pbz7uHdULhahqiuigTCmB4eHh4bV4nAVFN3SaY/PIBHh4e3k5eXrzPv69+jlIMeT94eHh4W3jVgLi/lVfLXYXR8fDw8Bbzqhehxsr81esIrZng4eHhLeYlL/lzU71j3xSSyHh4eHiLeZ3X/gRWXZRqahgPDw/vWV4eFne277ECWyHNgYeHh7eRl3Q3Nun+lYL8iMLDw8N7lpcvQZ7YTX4dWyA8PDy8p3h5sDsraB4rwr3sGQ8PD28LrxrgVpMIY8fM5EtXeHh4eJN41XYV2yz8YDICDw8PbwFv7Gppv4iVj5UnL/Dw8PB28vLNOireB0FwJ3zHw8PDO4eXb9CzYGMHxpt+8PDw8I7kVVMVSfK3MwoeHh7eybx8u5+VzC1fbMXDw8PbyOsU+zshdbXohYeHh3cCb25Rqpqi7SzWkvoeHh4e3i3v+xoeHh4eHh4eHt4B7RfP9lPvEe6JKwAAAABJRU5ErkJggg==">
         </ul>
     
 
@@ -322,7 +322,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        
+        <a class="post_tag-link" href="/tags/单行程序-C-没啥用/">单行程序 C# 没啥用</a>
     </ul>
     
 
@@ -338,7 +338,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Hello World&url=http://wangyw15.github.io//2017/03/05/hello-world/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=2017-3-5 20:41&url=http://wangyw15.github.io//2017/03/05/2017-3-5-20-41/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -347,7 +347,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Hello World&url=http://wangyw15.github.io//2017/03/05/hello-world/index.html&via=汪严玮" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=2017-3-5 20:41&url=http://wangyw15.github.io//2017/03/05/2017-3-5-20-41/index.html&via=汪严玮" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -356,7 +356,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://wangyw15.github.io//2017/03/05/hello-world/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://wangyw15.github.io//2017/03/05/2017-3-5-20-41/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -365,7 +365,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://wangyw15.github.io//2017/03/05/hello-world/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://wangyw15.github.io//2017/03/05/2017-3-5-20-41/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -374,7 +374,7 @@
 
     <!-- Share LinkedIn -->
     
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://wangyw15.github.io//2017/03/05/hello-world/index.html&title=Hello World" target="_blank">
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://wangyw15.github.io//2017/03/05/2017-3-5-20-41/index.html&title=2017-3-5 20:41" target="_blank">
             <li class="mdl-menu__item">
                 分享到 LinkedIn
             </li>
@@ -383,7 +383,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=汪严玮的博客&title=Hello World&summary=null&pics=http://wangyw15.github.io/img/favicon.png&url=http://wangyw15.github.io/2017/03/05/hello-world/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=汪严玮的博客&title=2017-3-5 20:41&summary=null&pics=http://wangyw15.github.io/img/favicon.png&url=http://wangyw15.github.io/2017/03/05/2017-3-5-20-41/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -392,7 +392,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=http://wangyw15.github.io//2017/03/05/hello-world/index.html&text=Hello World" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://wangyw15.github.io//2017/03/05/2017-3-5-20-41/index.html&text=2017-3-5 20:41" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Telegram
             </li>
@@ -407,16 +407,9 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
+        <h1 id="C-单行计算器（只有一行的程序）"><a href="#C-单行计算器（只有一行的程序）" class="headerlink" title="C#单行计算器（只有一行的程序）"></a>C#单行计算器（只有一行的程序）</h1><h6 id="其实并没有什么用…"><a href="#其实并没有什么用…" class="headerlink" title="其实并没有什么用…"></a>其实并没有什么用…</h6><h3 id="废话不多说，直接上代码（注意要添加对“System-Data”的引用，然后在代码里引用”System-Data”命名空间）"><a href="#废话不多说，直接上代码（注意要添加对“System-Data”的引用，然后在代码里引用”System-Data”命名空间）" class="headerlink" title="废话不多说，直接上代码（注意要添加对“System.Data”的引用，然后在代码里引用”System.Data”命名空间）"></a>废话不多说，直接上代码（注意要添加对“System.Data”的引用，然后在代码里引用”System.Data”命名空间）</h3><figure class="highlight csharp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Console.WriteLine((<span class="keyword">new</span> DataTable()).Compute(Console.ReadLine(), <span class="string">""</span>));</div></pre></td></tr></table></figure>
+<p>运行顺序:</p>
+<h3 id="①-new-DataTable"><a href="#①-new-DataTable" class="headerlink" title="① new DataTable()"></a>① new DataTable()</h3><h3 id="①-Console-ReadLine"><a href="#①-Console-ReadLine" class="headerlink" title="① Console.ReadLine()"></a>① Console.ReadLine()</h3><h3 id="①-DataTable-Compute"><a href="#①-DataTable-Compute" class="headerlink" title="① DataTable.Compute()"></a>① DataTable.Compute()</h3><h3 id="①-Console-WriteLine"><a href="#①-Console-WriteLine" class="headerlink" title="① Console.WriteLine()"></a>① Console.WriteLine()</h3><h6 id="感觉也没人能看懂…"><a href="#感觉也没人能看懂…" class="headerlink" title="感觉也没人能看懂…"></a>感觉也没人能看懂…</h6>
     
 
     
@@ -439,19 +432,19 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/03/05/My-first-article/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
+    
+        <a href="/2017/03/05/2017-3-5-19-57/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
     
 </nav>
 

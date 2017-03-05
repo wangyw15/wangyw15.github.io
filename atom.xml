@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wangyw15.github.io/"/>
-  <updated>2017-03-05T12:35:05.613Z</updated>
+  <updated>2017-03-05T12:50:16.639Z</updated>
   <id>http://wangyw15.github.io/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2017-3-5 20:41</title>
+    <link href="http://wangyw15.github.io/2017/03/05/2017-3-5-20-41/"/>
+    <id>http://wangyw15.github.io/2017/03/05/2017-3-5-20-41/</id>
+    <published>2017-03-05T12:41:53.000Z</published>
+    <updated>2017-03-05T12:50:16.639Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="C-单行计算器（只有一行的程序）"><a href="#C-单行计算器（只有一行的程序）" class="headerlink" title="C#单行计算器（只有一行的程序）"></a>C#单行计算器（只有一行的程序）</h1><h6 id="其实并没有什么用…"><a href="#其实并没有什么用…" class="headerlink" title="其实并没有什么用…"></a>其实并没有什么用…</h6><h3 id="废话不多说，直接上代码（注意要添加对“System-Data”的引用，然后在代码里引用”System-Data”命名空间）"><a href="#废话不多说，直接上代码（注意要添加对“System-Data”的引用，然后在代码里引用”System-Data”命名空间）" class="headerlink" title="废话不多说，直接上代码（注意要添加对“System.Data”的引用，然后在代码里引用”System.Data”命名空间）"></a>废话不多说，直接上代码（注意要添加对“System.Data”的引用，然后在代码里引用”System.Data”命名空间）</h3><figure class="highlight csharp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Console.WriteLine((<span class="keyword">new</span> DataTable()).Compute(Console.ReadLine(), <span class="string">""</span>));</div></pre></td></tr></table></figure>
+<p>运行顺序:</p>
+<h3 id="①-new-DataTable"><a href="#①-new-DataTable" class="headerlink" title="① new DataTable()"></a>① new DataTable()</h3><h3 id="①-Console-ReadLine"><a href="#①-Console-ReadLine" class="headerlink" title="① Console.ReadLine()"></a>① Console.ReadLine()</h3><h3 id="①-DataTable-Compute"><a href="#①-DataTable-Compute" class="headerlink" title="① DataTable.Compute()"></a>① DataTable.Compute()</h3><h3 id="①-Console-WriteLine"><a href="#①-Console-WriteLine" class="headerlink" title="① Console.WriteLine()"></a>① Console.WriteLine()</h3><h6 id="感觉也没人能看懂…"><a href="#感觉也没人能看懂…" class="headerlink" title="感觉也没人能看懂…"></a>感觉也没人能看懂…</h6>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;C-单行计算器（只有一行的程序）&quot;&gt;&lt;a href=&quot;#C-单行计算器（只有一行的程序）&quot; class=&quot;headerlink&quot; title=&quot;C#单行计算器（只有一行的程序）&quot;&gt;&lt;/a&gt;C#单行计算器（只有一行的程序）&lt;/h1&gt;&lt;h6 id=&quot;其实并没有什么用…
+    
+    </summary>
+    
+      <category term="单行程序" scheme="http://wangyw15.github.io/categories/%E5%8D%95%E8%A1%8C%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="单行程序 C# 没啥用" scheme="http://wangyw15.github.io/tags/%E5%8D%95%E8%A1%8C%E7%A8%8B%E5%BA%8F-C-%E6%B2%A1%E5%95%A5%E7%94%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>我的C#学习日记(无边框移动)</title>
