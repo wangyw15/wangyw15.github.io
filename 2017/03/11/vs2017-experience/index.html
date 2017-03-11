@@ -10,7 +10,7 @@
     
     <title>
         
-            标签: C# Programming Study | 
+            Visual Studio 2017 正式版初体验(1) | 
         
         汪严玮的博客
     </title>
@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="汪严玮">
     <meta name="description" content="null">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,VS2017">
 
     <!--iOS -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -48,9 +48,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://wangyw15.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: C# Programming Study | 汪严玮的博客">
+    <meta property="og:title" content="Visual Studio 2017 正式版初体验(1) | 汪严玮的博客">
     <meta property="og:description" content="null">
-    
+    <meta property="og:article:tag" content="VS2017"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -208,95 +208,258 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
-        
-    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
 
-    <!-- Normal Post -->
-    
-        
-        
-            <!-- Paradox Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#安装界面"><span class="post-toc-number">1.</span> <span class="post-toc-text">安装界面</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#注意，微软只提供了在线安装包，但是只要不选移动开发的组件，下载速度还是很快的。"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">注意，微软只提供了在线安装包，但是只要不选移动开发的组件，下载速度还是很快的。</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#主界面"><span class="post-toc-number">2.</span> <span class="post-toc-text">主界面</span></a></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script>
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/03/05/2017-3-5-19-57/">我的C#学习日记(无边框移动)</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            当我们在开发软件的时候，有时候设计界面，带着边框不好看，就把BorderStyle设置成None，但是这样就不能移动了，这时候，就需要代码了。
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/03/05/2017-3-5-19-57/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="汪严玮's avatar">
-            </div>
-            <div>
-                <strong>汪严玮</strong>
-                <span>3月 05, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/C/">C#</a>
-            </span>
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-        
-        
-        
-    
-
-    
-
-    
-        <script>
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')')
-
-        locatePost = locatePost.next();
-    }
+    $('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')');
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                Visual Studio 2017 正式版初体验(1)
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>汪严玮</strong>
+        <span>3月 11, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+            <i class="material-icons" role="presentation">devices other</i>
+            <span class="visuallyhidden">devices other</span>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+            <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAACzElEQVR42u3aUW7bMBAEUN//0u0BCiszS7p1ycevILYkPgXIYnf4+nXlemFjY2NjY2NjY2N/JfsVrz+/n9zn3afv7tZelewZGxsb+wb2D//633znedPPd3je4mw/PzwRGxsb+wL2c8FIGM+vIyly+Sur94yNjY2N/diK5MXpuZjljQ02NjY29jp79viVcRI2NjY29vpQKS9sbaFq24+/OkvDxsbG/np2G/R+w8//IN/GxsbG/kp2u/KAtthQ+fvhzrGxsbEPZSfxag5oY4BPv0psbGzse9jtFteP+zwj82i5CCSwsbGxj2bPCkwOSApMW6jqe2JjY2Mfym4j2HzkNMPngW47hMLGxsY+lZ2UpU8EsSvls90zNjY29g3sWWCQD3eSQjULevNCi42NjX0qux245/HqJ6KCpeAZGxsb+wJ2O7LfVX52IbGxsbGxE1I70J8dwWwLXlQIsbGxsY9mt0P/WUuw60BnO5zCxsbGvpM9I61EBbOhUtH2YGNjYx/KXh/9t4WtPdCzfugHGxsb+2x225Akg/g8ym1jhqUoAhsbG/tQ9sr4/hMlsI5v8z8ANjY29qHsbTFq3KjkgXHeeGzLt7GxsbH/W3b+yNnryAdDs/YmOu6DjY2NfRl716dJ29DeIQ8SsLGxsW9g5+VqNtDJ79wyNszSsLGxsY9gzx6cNB5JeJwf2ZkFydjY2Ng3s5NNr5SxtlC1LQ02Njb2Pew8TJ0FtHmo0L6avFhiY2Njn81uV3uYpn1ZbZuRty7Y2NjYp7Jf8WrL1Xqpy5uiaOCFjY2NfTS7HeIURx7La9uB0TAewMbGxj6U3Q5rZkdqdvE2zNKwsbGxr2S317Zx7+wpUeHExsbGxh61K0moPCuBG47sYGNjYx/HXhkqtQFDe2QnKYd10IuNjY19EHu26b1tRntgKFFgY2Nj38C+Z2FjY2NjY2NjY2N/zfoNp+ULbYn7PhMAAAAASUVORK5CYII=">
+        </ul>
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/VS2017/">VS2017</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Visual Studio 2017 正式版初体验(1)&url=http://wangyw15.github.io//2017/03/11/vs2017-experience/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Visual Studio 2017 正式版初体验(1)&url=http://wangyw15.github.io//2017/03/11/vs2017-experience/index.html&via=汪严玮" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://wangyw15.github.io//2017/03/11/vs2017-experience/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://wangyw15.github.io//2017/03/11/vs2017-experience/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://wangyw15.github.io//2017/03/11/vs2017-experience/index.html&title=Visual Studio 2017 正式版初体验(1)" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=汪严玮的博客&title=Visual Studio 2017 正式版初体验(1)&summary=null&pics=http://wangyw15.github.io/img/favicon.png&url=http://wangyw15.github.io/2017/03/11/vs2017-experience/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://wangyw15.github.io//2017/03/11/vs2017-experience/index.html&text=Visual Studio 2017 正式版初体验(1)" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>在3月7日的时候，Microsoft发布了Visual Studio 2017，我在3月10日的时候下载下来体验了一下，总体感觉不错。</p>
+<h1 id="安装界面"><a href="#安装界面" class="headerlink" title="安装界面"></a>安装界面</h1><p>最直观的感受应该是安装界面，放几张张图自行感受</p>
+<p><img src="/2017/03/11/vs2017-experience/installer_ui.png" alt="Visual Studio 2017 Installer" title="Visual Studio 2017 Installer"></p>
+<p><img src="/2017/03/11/vs2017-experience/installer_ui_2.png" alt="Visual Studio 2017 Installer" title="Visual Studio 2017 Installer"></p>
+<p>现在，C#不是必选选项了，这对于用vs写其他语言的人来说是好消息。</p>
+<h2 id="注意，微软只提供了在线安装包，但是只要不选移动开发的组件，下载速度还是很快的。"><a href="#注意，微软只提供了在线安装包，但是只要不选移动开发的组件，下载速度还是很快的。" class="headerlink" title="注意，微软只提供了在线安装包，但是只要不选移动开发的组件，下载速度还是很快的。"></a>注意，微软只提供了在线安装包，但是只要不选移动开发的组件，下载速度还是很快的。</h2><h1 id="主界面"><a href="#主界面" class="headerlink" title="主界面"></a>主界面</h1><p>Visual Studio的图标也被重新设计了</p>
+<p><img src="/2017/03/11/vs2017-experience/vs2017_icon.png" alt="Visual Studio 2017 Icon"></p>
+<p>进到主界面，与vs2015有着极大的不同</p>
+<p><img src="/2017/03/11/vs2017-experience/vs2017_ui.png" alt="Visual Studio 2017 Icon"></p>
+<p>新闻被挪到界面右边，占据的空间也小了，界面愈发简洁。</p>
+<p>其他的我暂时没发现什么，等到以后继续写吧。</p>
+
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/03/05/2017-3-5-20-41/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -471,6 +634,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wangyw15.github.io/"/>
-  <updated>2017-03-05T13:16:53.752Z</updated>
+  <updated>2017-03-11T05:29:42.745Z</updated>
   <id>http://wangyw15.github.io/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Visual Studio 2017 正式版初体验(1)</title>
+    <link href="http://wangyw15.github.io/2017/03/11/vs2017-experience/"/>
+    <id>http://wangyw15.github.io/2017/03/11/vs2017-experience/</id>
+    <published>2017-03-11T05:04:07.000Z</published>
+    <updated>2017-03-11T05:29:42.745Z</updated>
+    
+    <content type="html"><![CDATA[<p>在3月7日的时候，Microsoft发布了Visual Studio 2017，我在3月10日的时候下载下来体验了一下，总体感觉不错。</p>
+<h1 id="安装界面"><a href="#安装界面" class="headerlink" title="安装界面"></a>安装界面</h1><p>最直观的感受应该是安装界面，放几张张图自行感受</p>
+<p><img src="/2017/03/11/vs2017-experience/installer_ui.png" alt="Visual Studio 2017 Installer" title="Visual Studio 2017 Installer"></p>
+<p><img src="/2017/03/11/vs2017-experience/installer_ui_2.png" alt="Visual Studio 2017 Installer" title="Visual Studio 2017 Installer"></p>
+<p>现在，C#不是必选选项了，这对于用vs写其他语言的人来说是好消息。</p>
+<h2 id="注意，微软只提供了在线安装包，但是只要不选移动开发的组件，下载速度还是很快的。"><a href="#注意，微软只提供了在线安装包，但是只要不选移动开发的组件，下载速度还是很快的。" class="headerlink" title="注意，微软只提供了在线安装包，但是只要不选移动开发的组件，下载速度还是很快的。"></a>注意，微软只提供了在线安装包，但是只要不选移动开发的组件，下载速度还是很快的。</h2><h1 id="主界面"><a href="#主界面" class="headerlink" title="主界面"></a>主界面</h1><p>Visual Studio的图标也被重新设计了</p>
+<p><img src="/2017/03/11/vs2017-experience/vs2017_icon.png" alt="Visual Studio 2017 Icon"></p>
+<p>进到主界面，与vs2015有着极大的不同</p>
+<p><img src="/2017/03/11/vs2017-experience/vs2017_ui.png" alt="Visual Studio 2017 Icon"></p>
+<p>新闻被挪到界面右边，占据的空间也小了，界面愈发简洁。</p>
+<p>其他的我暂时没发现什么，等到以后继续写吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在3月7日的时候，Microsoft发布了Visual Studio 2017，我在3月10日的时候下载下来体验了一下，总体感觉不错。&lt;/p&gt;
+&lt;h1 id=&quot;安装界面&quot;&gt;&lt;a href=&quot;#安装界面&quot; class=&quot;headerlink&quot; title=&quot;安装界面&quot;&gt;&lt;/a
+    
+    </summary>
+    
+      <category term="Visual-Studio" scheme="http://wangyw15.github.io/categories/Visual-Studio/"/>
+    
+    
+      <category term="VS2017" scheme="http://wangyw15.github.io/tags/VS2017/"/>
+    
+  </entry>
   
   <entry>
     <title>C#单行计算器（除去必要代码，真的只有一行）</title>
