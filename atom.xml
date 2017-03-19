@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wangyw15.github.io/"/>
-  <updated>2017-03-11T05:29:42.745Z</updated>
+  <updated>2017-03-19T02:34:27.880Z</updated>
   <id>http://wangyw15.github.io/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开一个Minecraft的服务器</title>
+    <link href="http://wangyw15.github.io/2017/03/19/Make-A-Minecraft-Server/"/>
+    <id>http://wangyw15.github.io/2017/03/19/Make-A-Minecraft-Server/</id>
+    <published>2017-03-19T01:11:30.000Z</published>
+    <updated>2017-03-19T02:34:27.880Z</updated>
+    
+    <content type="html"><![CDATA[<p>应同学的要求，我就来写一篇关于Minecraft开服的教程。</p>
+<h1 id="服务器下载"><a href="#服务器下载" class="headerlink" title="服务器下载"></a>服务器下载</h1><p>这个很简单，链接地址在下面</p>
+<p><a href="https://s3.amazonaws.com/Minecraft.Download/versions/{Version}/minecraft_server.{Version}.jar" target="_blank" rel="external">https://s3.amazonaws.com/Minecraft.Download/versions/{Version}/minecraft_server.{Version}.jar</a></p>
+<p>把链接里面的{Version}替换成你想要的服务器版本，例如：<a href="https://s3.amazonaws.com/Minecraft.Download/versions/1.11.2/minecraft_server.1.11.2.jar" title="Minecraft 1.11.2 服务器下载地址" target="_blank" rel="external">https://s3.amazonaws.com/Minecraft.Download/versions/1.11.2/minecraft_server.1.11.2.jar</a>，这个链接下载的是Minecraft 1.11.2的服务器。</p>
+<h1 id="开启服务器"><a href="#开启服务器" class="headerlink" title="开启服务器"></a>开启服务器</h1><p>首先确定你安装了java：在命令行里输入java，如果显示出一大串东西，那么就可以继续了。<br>把之前下好的服务器放在一个单独的文件夹里，在文件夹里新建一个叫start.cmd的文件，里面输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">@echo off</div><div class="line">java -jar 服务器文件的名字 nogui</div></pre></td></tr></table></figure></p>
+<p>再新建一个叫eula.txt的文件，里面输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">eula=true</div></pre></td></tr></table></figure></p>
+<p>保存退出，打开start.cmd，出现Done的字样，服务器就开好了。<br>不过这时，你的服务器只能在你家的局域网里使用，如果想要找其他人一起来，那就需要端口映射，这个我们下次再说。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;应同学的要求，我就来写一篇关于Minecraft开服的教程。&lt;/p&gt;
+&lt;h1 id=&quot;服务器下载&quot;&gt;&lt;a href=&quot;#服务器下载&quot; class=&quot;headerlink&quot; title=&quot;服务器下载&quot;&gt;&lt;/a&gt;服务器下载&lt;/h1&gt;&lt;p&gt;这个很简单，链接地址在下面&lt;/p&gt;
+&lt;p
+    
+    </summary>
+    
+      <category term="Games" scheme="http://wangyw15.github.io/categories/Games/"/>
+    
+    
+      <category term="Minecraft" scheme="http://wangyw15.github.io/tags/Minecraft/"/>
+    
+  </entry>
   
   <entry>
     <title>Visual Studio 2017 正式版初体验(1)</title>

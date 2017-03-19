@@ -10,6 +10,8 @@
     
     <title>
         
+            开一个Minecraft的服务器 | 
+        
         汪严玮的博客
     </title>
 
@@ -25,7 +27,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="汪严玮">
     <meta name="description" content="null">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,Minecraft">
 
     <!--iOS -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -46,9 +48,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://wangyw15.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="汪严玮的博客">
+    <meta property="og:title" content="开一个Minecraft的服务器 | 汪严玮的博客">
     <meta property="og:description" content="null">
-    
+    <meta property="og:article:tag" content="Minecraft"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -206,535 +208,254 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
+                    <!-- Post TOC -->
+
     
-        <!-- Paradox Header -->
-        <!-- Daily pic -->
-<div class="mdl-card mdl-shadow--2dp daily-pic mdl-cell mdl-cell--8-col index-top-block">
-
-    <!-- Pic & Slogan -->
-    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/daily_pic.png)">
-        <p class="index-top-block-slogan"><a href="#">
-        
-            
-                很高兴见到你！
-            
-        
-        </a></p>
-    </div>
-
-    <!-- Avatar & Name -->
-    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-        <!-- Author Avatar -->
-        <div id="author-avatar">
-            <img src="/img/avatar.png" width="32px" height="32px" alt="avatar">
-        </div>
-        <div>
-            <strong>汪严玮</strong>
-        </div>
-    </div>
-</div>
-
-        <!-- Blog info -->
-<div class="mdl-card mdl-shadow--2dp something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop index-top-block">
-
-    <!-- Search -->
-    
-
-
-
-
-    <!-- Local -->
-    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable" method="post" action="">
-        <label id="search-label" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent mdl-shadow--4dp" for="search">
-            <i class="material-icons mdl-color-text--white" role="presentation">search</i>
-        </label>
-
-        <form autocomplete="off" id="search-form" class="mdl-textfield__expandable-holder">
-            <input type="text" id="search" class="form-control mdl-textfield__input search-input" name="q" results="0" placeholder=""/>
-            <label id="search-form-label" class="mdl-textfield__label" for="search"></label>
-        </form>
-    </div>
-    <div id="local-search-result"></div>
-
-
-
-    <!-- LOGO -->
-    <div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
-        <a href="#">
-            <img src="/img/logo.png" alt="logo" />
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
         </a>
     </div>
+    -->
 
-    <!-- Infomation -->
-    <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-        <!-- Blog Title -->
-        <div>
-            <strong>汪严玮的博客</strong>
-        </div>
-        <div class="section-spacer"></div>
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
 
-        <!-- Pages -->
-        <button id="show-pages-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">view_carousel</i>
-            <span class="visuallyhidden">Pages</span>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="show-pages-button">
-            
-        </ul>
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#服务器下载"><span class="post-toc-number">1.</span> <span class="post-toc-text">服务器下载</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#开启服务器"><span class="post-toc-number">2.</span> <span class="post-toc-text">开启服务器</span></a></li></ol>
 
-        <!-- Menu -->
-        <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">more_vert</i>
-            <span class="visuallyhidden">show menu</span>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
-            
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
 
-            
-                <a class="index_share-link" href="/atom.xml">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        文章 RSS
-                    </li>
-                </a>
-            
 
-            
-                <a class="index_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=汪严玮的博客&url=http://wangyw15.github.io/&pic=&searchPic=false&style=simple" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        分享到微博
-                    </li>
-                </a>
-            
 
-            
-                <a class="index_share-link" href="https://twitter.com/intent/tweet?text=汪严玮的博客&url=http://wangyw15.github.io/&via=汪严玮" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        分享到 Twitter
-                    </li>
-                </a>
-            
 
-            
-                <a class="index_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://wangyw15.github.io//index.html" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        分享到 Facebook
-                    </li>
-                </a>
-            
+<!-- Layouts -->
 
-            
-                <a class="index_share-link" href="https://plus.google.com/share?url=http://wangyw15.github.io/" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        分享到 Google+
-                    </li>
-                </a>
-            
+    <!-- Post Module -->
+    <div class="material-post_container">
 
-            
-                <a class="index_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://wangyw15.github.io/&title=汪严玮的博客" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        分享到 LinkedIn
-                    </li>
-                </a>
-            
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
 
-            
-                <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=汪严玮的博客&title=汪严玮的博客&summary=null&pics=http://wangyw15.github.io/img/favicon.png&url=http://wangyw15.github.io/" target="_blank">
-                    <li class="mdl-menu__item">
-                        分享到 QQ
-                    </li>
-                </a>
-            
-
-            
-                <a class="post_share-link" href="https://telegram.me/share/url?url=http://wangyw15.github.io/&text=汪严玮的博客" target="_blank">
-                    <li class="mdl-menu__item">
-                        分享到 Telegram
-                    </li>
-                </a>
-            
-        </ul>
-    </div>
-</div>
-
-    
-    <div class="locate-thumbnail-symbol"></div>
-
-    <!-- Pin on top -->
-    
-        
-    
-
-    <!-- Normal Post -->
-    
-        
-        
-            <!-- Paradox Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/03/19/Make-A-Minecraft-Server/">开一个Minecraft的服务器</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            应同学的要求，我就来写一篇关于Minecraft开服的教程。
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/03/19/Make-A-Minecraft-Server/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="汪严玮's avatar">
-            </div>
-            <div>
-                <strong>汪严玮</strong>
-                <span>3月 19, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/Games/">Games</a>
-            </span>
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-        
-        
-        
-    
-        
-        
-            <!-- Paradox Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/03/11/vs2017-experience/">Visual Studio 2017 正式版初体验(1)</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            在3月7日的时候，Microsoft发布了Visual Studio 2017，我在3月10日的时候下载下来体验了一下，总体感觉不错。
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/03/11/vs2017-experience/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="汪严玮's avatar">
-            </div>
-            <div>
-                <strong>汪严玮</strong>
-                <span>3月 11, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/Visual-Studio/">Visual-Studio</a>
-            </span>
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-        
-        
-        
-    
-        
-        
-            <!-- Paradox Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/03/05/2017-3-5-20-41/">C#单行计算器（除去必要代码，真的只有一行）</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            废话不多说，直接上代码
-P.S. 注意要添加对“System.Data”的引用，然后在代码里引用”System.Data”命名空间
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/03/05/2017-3-5-20-41/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="汪严玮's avatar">
-            </div>
-            <div>
-                <strong>汪严玮</strong>
-                <span>3月 05, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/C/">C#</a>
-            </span>
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-        
-        
-        
-    
-        
-        
-            <!-- Paradox Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/03/05/2017-3-5-19-57/">我的C#学习日记(无边框移动)</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            当我们在开发软件的时候，有时候设计界面，带着边框不好看，就把BorderStyle设置成None，但是这样就不能移动了，这时候，就需要代码了。
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/03/05/2017-3-5-19-57/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="汪严玮's avatar">
-            </div>
-            <div>
-                <strong>汪严玮</strong>
-                <span>3月 05, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/C/">C#</a>
-            </span>
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-        
-        
-        
-    
-        
-        
-            <!-- Paradox Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/03/05/My-first-article/">我的第一篇文章！</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            这意味着什么？我终于有博客啦~(≧▽≦)/~
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/03/05/My-first-article/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="汪严玮's avatar">
-            </div>
-            <div>
-                <strong>汪严玮</strong>
-                <span>3月 05, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
+                <!-- Post Header(Thumbnail & Title) -->
                 
-            </span>
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-        
-        
-        
-    
-        
-        
-            <!-- Paradox Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script>
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/03/05/hello-world/">Hello World</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Welcome to Hexo
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/03/05/hello-world/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="汪严玮's avatar">
-            </div>
-            <div>
-                <strong>汪严玮</strong>
-                <span>3月 05, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                
-            </span>
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-        
-        
-        
-    
-
-    
-
-    
-        <script>
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')')
-
-        locatePost = locatePost.next();
-    }
+    $('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')');
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                开一个Minecraft的服务器
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>汪严玮</strong>
+        <span>3月 19, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+            <i class="material-icons" role="presentation">devices other</i>
+            <span class="visuallyhidden">devices other</span>
+        </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+            <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC20lEQVR42u3aS1bDMBAEwNz/0nCAQNI9MmCk8iovH1ulBc3M6PFx5PXAxsbGxsbGxsbGviX7EV/P3//i1k/f/O5Xz3doP83XjI2NjX0C+82f/peY10tptzhZVbtmbGxs7HPY+SJe89otmz29/hU2NjY2drD0lW0qigpsbGxs7IsCLPn0KhI2NjY29lVNpfVPk4DMhxC/1EvDxsbGvj171rj/29d/MN/GxsbGviW7vdYDKSkwZqH1ZuXY2NjYm7KTI5LJEcy8nJi1rpKtf9OKwsbGxt6UncdVjs8P9MwGzHmUYmNjY5/Anh3BiR4T3zkJs9kgARsbG/scdt4qSoYH+T3zSMuLH2xsbOyT2UmxMWvf5y2k2eD5svk2NjY29j9krwx62xJldgxoFqI/ON/GxsbGvhm7bfrPYqxtAOX3z9eJjY2NvSt7fVQwKyGuGk4U8YmNjY19ADsfps4a9+vvLzWtsLGxsbdmt0ceZ+PhvFU0KzbqAMPGxsbemp23gdpga5tK+aZgY2NjY8/+6W+DrW0G5aVLPd/GxsbG3oh91WOKOIk3on1n2EvDxsbG/rfstgjJm0F5SygfDM9CFxsbG3tvdh5jyRJnjaRoTLsQXdjY2NgnsNuxa7sRedGSR2M7BsbGxsbem51EQnt0sm1UteVQva3Y2NjYW7Pb+GlHvHkbaFb2RJuFjY2NfQB7JdjWG0/5eHjYbMLGxsbelD1rJ6036/MBbft9bGxs7NPYbWy0LaSkLZUPD2bFEjY2NvY57DxCrjoc2R7NXIlAbGxs7F3ZVzWAknvOti8P0WI8gI2Njb0de/bIWesnPxj04wGGjY2NvR17FlrFgxdGC0VQtQGGjY2NfRh7pXG/Mh5IfvWmQMLGxsbGHhUGbfDkjaRkPdjY2NinsdfbQHks5QODPBqLIzvY2NjY27FXBr0zcBJXbRz+6nwbGxsb+zbscy5sbGxsbGxsbGzs21yfv1Aggu8EFJEAAAAASUVORK5CYII=">
+        </ul>
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/Minecraft/">Minecraft</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=开一个Minecraft的服务器&url=http://wangyw15.github.io//2017/03/19/Make-A-Minecraft-Server/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=开一个Minecraft的服务器&url=http://wangyw15.github.io//2017/03/19/Make-A-Minecraft-Server/index.html&via=汪严玮" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://wangyw15.github.io//2017/03/19/Make-A-Minecraft-Server/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://wangyw15.github.io//2017/03/19/Make-A-Minecraft-Server/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://wangyw15.github.io//2017/03/19/Make-A-Minecraft-Server/index.html&title=开一个Minecraft的服务器" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=汪严玮的博客&title=开一个Minecraft的服务器&summary=null&pics=http://wangyw15.github.io/img/favicon.png&url=http://wangyw15.github.io/2017/03/19/Make-A-Minecraft-Server/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://wangyw15.github.io//2017/03/19/Make-A-Minecraft-Server/index.html&text=开一个Minecraft的服务器" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>应同学的要求，我就来写一篇关于Minecraft开服的教程。</p>
+<h1 id="服务器下载"><a href="#服务器下载" class="headerlink" title="服务器下载"></a>服务器下载</h1><p>这个很简单，链接地址在下面</p>
+<p><a href="https://s3.amazonaws.com/Minecraft.Download/versions/{Version}/minecraft_server.{Version}.jar" target="_blank" rel="external">https://s3.amazonaws.com/Minecraft.Download/versions/{Version}/minecraft_server.{Version}.jar</a></p>
+<p>把链接里面的{Version}替换成你想要的服务器版本，例如：<a href="https://s3.amazonaws.com/Minecraft.Download/versions/1.11.2/minecraft_server.1.11.2.jar" title="Minecraft 1.11.2 服务器下载地址" target="_blank" rel="external">https://s3.amazonaws.com/Minecraft.Download/versions/1.11.2/minecraft_server.1.11.2.jar</a>，这个链接下载的是Minecraft 1.11.2的服务器。</p>
+<h1 id="开启服务器"><a href="#开启服务器" class="headerlink" title="开启服务器"></a>开启服务器</h1><p>首先确定你安装了java：在命令行里输入java，如果显示出一大串东西，那么就可以继续了。<br>把之前下好的服务器放在一个单独的文件夹里，在文件夹里新建一个叫start.cmd的文件，里面输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">@echo off</div><div class="line">java -jar 服务器文件的名字 nogui</div></pre></td></tr></table></figure></p>
+<p>再新建一个叫eula.txt的文件，里面输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">eula=true</div></pre></td></tr></table></figure></p>
+<p>保存退出，打开start.cmd，出现Done的字样，服务器就开好了。<br>不过这时，你的服务器只能在你家的局域网里使用，如果想要找其他人一起来，那就需要端口映射，这个我们下次再说。</p>
+
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/03/11/vs2017-experience/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
