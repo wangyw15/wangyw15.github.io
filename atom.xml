@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wangyw15.github.io/"/>
-  <updated>2017-03-19T02:34:27.880Z</updated>
+  <updated>2017-07-23T13:26:47.158Z</updated>
   <id>http://wangyw15.github.io/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>初尝Bridge.NET(C#转js)</title>
+    <link href="http://wangyw15.github.io/2017/07/23/try-bridgedotnet/"/>
+    <id>http://wangyw15.github.io/2017/07/23/try-bridgedotnet/</id>
+    <published>2017-07-23T13:06:20.000Z</published>
+    <updated>2017-07-23T13:26:47.158Z</updated>
+    
+    <content type="html"><![CDATA[<p>暑假过去三个星期了，游戏都玩腻了，闲得慌</p>
+<h6 id="其实是找不到人一起玩…"><a href="#其实是找不到人一起玩…" class="headerlink" title="其实是找不到人一起玩…"></a>其实是找不到人一起玩…</h6><p>闲着也没事干，就开始逛起了谷歌</p>
+<h6 id="不要问我怎么逛的"><a href="#不要问我怎么逛的" class="headerlink" title="不要问我怎么逛的"></a>不要问我怎么逛的</h6><p>发现了一个神奇的开源软件，名字叫Bridge.NET，这里是<br><a href="https://github.com/bridgedotnet/Bridge" title="bridgedotnet/Bridge" target="_blank" rel="external">Github仓库</a></p>
+<p>介绍是这么说的：C# to JavaScript compiler. Write modern mobile and web apps in C#. Run them anywhere in JavaScript with Bridge.NET.</p>
+<p>听起来很厉害的样子，我就迫不及待地下下来尝试一番。</p>
+<p>这个其实是一个Visual Studio的一个插件，不大，只有5MB。</p>
+<p>新建项目后，我随便写了点，看起来是这样的<br><img src="/2017/07/23/try-bridgedotnet/Code.png" alt="Code" title="就这样的"></p>
+<h6 id="真的是随便写的，不要吐槽我…"><a href="#真的是随便写的，不要吐槽我…" class="headerlink" title="真的是随便写的，不要吐槽我…"></a>真的是随便写的，不要吐槽我…</h6><p>C#是强类型语言，js里那么自由的写法消失了。。</p>
+<p>方法上的Ready标志代表会在加载时运行。</p>
+<p>生成出来的js文件是不大，但是，Bridge.NET的那坨js就不小了，有10MB。。。不过有精简版的，也要482KB，还是比完整版好多了。</p>
+<p>目前来说，是个大坑，某些功能还是要js来实现。不过，写起来是还行的，看以后会不会有更多的人去用。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;暑假过去三个星期了，游戏都玩腻了，闲得慌&lt;/p&gt;
+&lt;h6 id=&quot;其实是找不到人一起玩…&quot;&gt;&lt;a href=&quot;#其实是找不到人一起玩…&quot; class=&quot;headerlink&quot; title=&quot;其实是找不到人一起玩…&quot;&gt;&lt;/a&gt;其实是找不到人一起玩…&lt;/h6&gt;&lt;p&gt;闲着也没事干
+    
+    </summary>
+    
+      <category term="C#" scheme="http://wangyw15.github.io/categories/C/"/>
+    
+    
+      <category term="C# dotnet front-end" scheme="http://wangyw15.github.io/tags/C-dotnet-front-end/"/>
+    
+  </entry>
   
   <entry>
     <title>开一个Minecraft的服务器</title>
@@ -51,7 +85,7 @@
     <link href="http://wangyw15.github.io/2017/03/11/vs2017-experience/"/>
     <id>http://wangyw15.github.io/2017/03/11/vs2017-experience/</id>
     <published>2017-03-11T05:04:07.000Z</published>
-    <updated>2017-03-11T05:29:42.745Z</updated>
+    <updated>2017-03-11T05:29:42.746Z</updated>
     
     <content type="html"><![CDATA[<p>在3月7日的时候，Microsoft发布了Visual Studio 2017，我在3月10日的时候下载下来体验了一下，总体感觉不错。</p>
 <h1 id="安装界面"><a href="#安装界面" class="headerlink" title="安装界面"></a>安装界面</h1><p>最直观的感受应该是安装界面，放几张张图自行感受</p>
